@@ -433,7 +433,7 @@ h3 {
     width: 400px;
     height: 426px;
     border-radius: 16px;
-    margin: 20px auto;
+    margin: 20px 0;
     background: lightgray 0px -35.755px / 100% 142.115% no-repeat;
 }
 
@@ -441,4 +441,84 @@ h3 {
     background: #F00 0px -35.755px / 100% 142.115% no-repeat;
     width: 460px;
     position: relative;
+}
+
+.portfolio_images {
+    margin-bottom: 100px;
+}
+
+/* subscription section styles */
+
+.subscription_container {
+    width: 1320px;
+    margin: auto;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin-bottom: 100px;
+}
+
+.subscription {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.group_61 {
+    width: 150px;
+    height: 150px;
+    padding-top: 80px;
+}
+
+.subscription_title {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    margin: 50px auto;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.subscription_description {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.subscription_form {
+    display: flex;
+    margin: 80px auto;
+    width: 648px;
+    height: 72px;
+}
+
+.subscription_input {
+    width: 450px;
+    border: 0;
+    padding-left: 20px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background: #FFF;
+}
+
+.subscription_btn {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    width: 210px;
+    height: 72px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
 }
