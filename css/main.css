@@ -6,7 +6,8 @@ body {
     font-style: normal;
 }
 
-h1 {
+h1,
+h2 {
     padding: 0;
     margin: 0;
 }
@@ -50,4 +51,46 @@ h1 {
     line-height: 95px;
     width: 600px;
     align-items: center;
+}
+
+/* Holiday off section */
+.holiday {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.holiday_off {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.holiday_sub_title {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 50px;
+}
+
+.holiday_title {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+
+.new_year_photo {
+    width: 802.9px;
+    height: 500px;
 }
