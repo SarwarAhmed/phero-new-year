@@ -506,6 +506,11 @@ h3 {
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     background: #FFF;
+    /* color: rgba(7, 2, 17, 0.30); */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .subscription_btn {
@@ -521,4 +526,107 @@ h3 {
     font-weight: 600;
     line-height: normal;
     text-transform: capitalize;
+}
+
+.subscription_btn:hover {
+    background-color: #FFF;
+    color: #070211;
+}
+
+.footer_container {
+    width: 1600px;
+    height: 609px;
+    margin: auto;
+    flex-shrink: 0;
+    background: #070211;
+}
+
+.footer_section {
+    width: 1320px;
+    margin: auto;
+    height: 616px;
+    flex-shrink: 0;
+}
+
+.footer_top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding-bottom: 50px;
+}
+
+.footer_top_left {
+    width: 375px;
+}
+
+.footer_top_right>ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer_top_right>ul>li>span {
+    text-align: center;
+    padding-right: 5px;
+    width: 24px;
+    height: 24px;
+}
+
+.phone-number {
+    padding-right: 10px;
+}
+
+
+.footer_mid {
+    /* background-color: red; */
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding-bottom: 50px;
+}
+
+.social_icon {
+    margin: 0 20px;
+}
+
+.footer_bottom {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding-bottom: 50px;
+}
+
+.footer_bottom_left {
+    margin-top: 50px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer_bottom_right {
+    margin-top: 50px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
