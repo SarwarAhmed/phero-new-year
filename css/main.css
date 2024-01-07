@@ -89,6 +89,7 @@ h3 {
     font-weight: 700;
     line-height: normal;
     margin-bottom: 50px;
+    margin-top: 20px;
 }
 
 .new_year_photo {
@@ -101,6 +102,11 @@ h3 {
     display: flex;
     justify-content: center;
     margin-top: 100px;
+}
+.party_image {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 20px;
 }
 
 .party {
