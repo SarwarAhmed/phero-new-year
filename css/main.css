@@ -258,10 +258,6 @@ h3 {
     line-height: 32px;
 }
 
-.right_comming {
-    width: 400px;
-}
-
 .year {
     color: #F00;
     font-family: Inter;
@@ -271,8 +267,8 @@ h3 {
 }
 
 .mid_comming {
-    width: 400px;
-    height: 400px;
+    width: 463px;
+    height: 463px;
     border-radius: 463px;
     border: 15px solid #F00;
     display: flex;
@@ -287,4 +283,103 @@ h3 {
     font-weight: 400;
     line-height: 32px;
     width: 276px;
+}
+
+/* functional section styles */
+.function_container {
+    margin-top: 100px;
+    width: 1320px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.functional {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.functional_top {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.functiona_sub_title {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.functional_title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.functional_title_span {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.function_description {
+    width: 1068px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.functinal_mid {
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 200px;
+}
+
+
+.functiona_mid_right_img_bg {
+    background-image: url("../images/Rectangle-1.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    width: 429px;
+    height: 433px;
+    flex-shrink: 0;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.functional_bottom {
+    background-image: url("../images/Rectangle-2.png");
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 229px;
+    flex-shrink: 0;
+    border-radius: 16px 0px 16px 16px;
+    background: #F00;
+}
+
+.group_75 {
+    position: absolute;
+}
+
+.group_44 {
+    width: 206.841px;
+    height: 206.841px;
+    margin-top: 150px;
+    margin-left: -120px;
+    position: absolute;
 }
